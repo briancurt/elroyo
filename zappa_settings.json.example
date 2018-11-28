@@ -1,0 +1,36 @@
+{
+    "prod": {
+        "apigateway_description": "Zappa Slack Bot",
+        "app_function": "techops-bot.app",
+        "aws_region": "us-east-1",
+        "aws_environment_variables" : {
+            "SLACK_SIGNING_SECRET": "",
+            "DCOS_USERNAME": "",
+            "DCOS_PASSWORD": "",
+            "VICTOROPS_API_ID": "",
+            "VICTOROPS_API_KEY": "",
+            "VICTOROPS_TEAM": ""
+        },
+        "exclude": [
+            "__pycache__",
+            ".git",
+            ".gitignore",
+            ".Python",
+            ".python-version",
+            "LICENSE",
+            "man",
+            "lib",
+            "zappa_settings.json"
+        ],
+        "keep_warm": true,
+        "keep_warm_expression": "rate(5 minutes)",
+        "lambda_description": "Zappa Slack Bot",
+        "memory_size": 256,
+        "num_retained_versions": 5,
+        "profile_name": "default",
+        "project_name": "techops-bot-app",
+        "runtime": "python3.6",
+        "s3_bucket": "techops-bot-zappa",
+        "timeout_seconds": 30
+    }
+}
