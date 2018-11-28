@@ -1,0 +1,26 @@
+---
+general:
+  superusers: # Use Slack's user_id, as user_name is being deprecated, for example:
+    - U39MALH08
+    - UB54MNHB6
+    - U7C1VJ70T
+    - UBHLJ1XJ9
+  env_short_names:
+    - development
+    - staging
+    - production
+dcos:
+  endpoints:
+    development: https://my-dcos-cluster.dev.example.com
+    staging: https://my-dcos-cluster.stg.example.com
+    production: https://my-dcos-cluster.prod.example.com
+misc:
+  excuses: # Just fun stuff
+    - My VPN is not working
+    - I'm waiting for a PR approval
+    - I will take a look after lunch
+    - Please open a ticket
+    - Have you tried restarting?
+    - Sorry, Jira is down
+    - My laptop is running out of battery
+    - I'm on PTO, ask my manager
