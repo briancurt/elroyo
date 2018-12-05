@@ -1,4 +1,4 @@
-*Elroyo* is a general purpose, jack of all trades, operations oriented, modular Slack chat bot. It was built using Flask and runs as a Lambda serverless application managed by the awesome [Zappa](https://github.com/Miserlou/Zappa) framework.
+*Elroyo* is a general purpose, jack of all trades, operations oriented, modular Slack chat bot. It was built using Flask and runs as a Lambda serverless application managed by the awesome [Zappa](https://github.com/Miserlou/Zappa) framework. It can be used as a boilerplate base.
 
 ### Requirements
 
