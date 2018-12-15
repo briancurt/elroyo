@@ -15,7 +15,7 @@ dcos:
     staging: https://my-dcos-cluster.stg.example.com
     production: https://my-dcos-cluster.prod.example.com
 misc:
-  excuses: # Just fun stuff
+  excuses: # Just fun stuff :)
     - My VPN is not working
     - I'm waiting for a PR approval
     - I will take a look after lunch
